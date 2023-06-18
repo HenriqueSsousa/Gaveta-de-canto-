@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se na Eagle</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+    <section class="tela-cadastro">
+        <div class="cadastro">
+            <div>
+                <h1>CADASTRE-SE</h1>
+                <br><br><br>
+            </div>
+            <form name="Cadastro Usuario" method="post" action="php/variaveis.php">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td style="top: -10px; left: -120px; position: relative;"><input type="checkbox" name="masculino" value="masculino">MASCULINO</td>
+                        <td style="top: -10px; left: -390px; position: relative;"><input type="checkbox" name="feminino" value="feminino">FEMININO</td>
+                    </tr> 
+                        <td>Nome:</td>
+                        <td><input name="nome_usuario" type="text" size="50" maxlenght="50" placeholder="NOME COMPLETO"></td>
+                    </tr>
+                    <tr>
+                        <td>NASC:</td>
+                        <td><input name="nascimento_usuario" type="date" size="50" maxlenght="50" placeholder="DATA DE NASCIMENTO"></td>
+                    </tr>
+                    <tr>
+                        <td>CPF:</td>
+                        <td><input name="cpf_usuario" type="number" size="50" maxlenght="50" placeholder="INFORME SEU CPF"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td><input name="email_usuario" type="email" size="50" maxlenght="50" placeholder="INFORME SEU EMAIL"></td>
+                    </tr>
+                    <tr>
+                        <td>Endereço:</td>
+                        <td><input name="endereco_usuario" type="text" size="50" maxlenght="50" placeholder="ENDEREÇO COMPLETO"></td>
+                    </tr>
+                    <tr>
+                        <td>Telefone:</td>
+                        <td><input name="telefone_usuario" type="number" size="50" maxlenght="50" placeholder="CELULAR"></td>
+                    </tr>
+                </table>
+                <br>
+                <button type="submit" name="Submit">FINALIZAR CADASTRO</button>
+            </form>
+        </div>
+    </section>
+    <header class="topo">
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a> A INOVAÇÃO AO SEU ALCANCE!!</a></li>
+        </ul>
+    </nav>        
+    <div class="logo">
+    <a href="index.html"><img src="img/topo2.png" width="180px"></a>    
+    </div> 
+</body>
+</body>
+</html>

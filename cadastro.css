@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.topo{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    color: rgb(0, 0, 0);   
+}
+
+
+.logo{
+	position: fixed;
+	top: 6px;
+	left: 200px;
+    cursor: pointer;
+}
+
+/*MENU*/
+.menu{
+    position: fixed;
+    text-align: center;
+    background-color:#FF8000;
+    width: 100%;       
+    top: 80px;
+    border-style: solid;
+    border-color: #FF8000;
+}
+
+li{
+    display: inline-block;
+    margin: 6px;
+}
+
+li a{
+    padding: 3px 5px;
+    color: rgb(10, 9, 9);
+    font-size: 28px;
+}
+
+
+/*Tela DIV cadastro*/
+.tela-cadastro{
+    position: absolute;
+	color: #FF8000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+    border-color: #FF8000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 650px;
+    height: 450px;
+}
+
+/*Input Login*/
+.cadastro{
+    background-color: white;
+    border-style: solid;
+    border-color: #FF8000;
+    padding: 20px;
+    color: #FF8000;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    text-transform: uppercase;
+  
+}
+
+input{
+    background-color: white;
+    border-style: solid;
+    border-color: #f5983b;
+    padding: 10px;
+    color: #f5983b;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    text-transform: uppercase;
+    width: 450px;
+}
+
+input:hover{
+    border-color: #f5983b;
+}
+
+input.radio{
+    color: black;
+}
+
+button{
+  background-color: #FF8000;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+
+
+}
+
+button:hover{
+	background-color: #f5983b;
+	cursor: pointer;
+    text-transform: uppercase;
+    
+}
+
+
+table{
+    font-weight: bold;
+	text-align: center;    
+}

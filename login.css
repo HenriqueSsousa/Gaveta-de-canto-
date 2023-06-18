@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.topo{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+        
+}
+
+
+.logo{
+	position: fixed;
+	top: 6px;
+	left: 200px;
+    cursor: pointer;
+}
+
+/*MENU*/
+.menu{
+    position: fixed;
+    text-align: center;
+    background-color:#FF8000;
+    width: 100%;       
+    top: 80px;
+    border-style: solid;
+    border-color: #FF8000;
+    
+}
+
+li{
+    display: inline-block;
+    margin: 6px;
+}
+
+li a{
+    padding: 3px 5px;
+}
+
+
+/*Tela DIV Login*/
+.telalogin{
+	position: absolute;
+	color: #FF8000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+    border-color: #FF8000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 18px grey;
+    width: 18vw;
+    height: 35vh;
+}
+
+
+/*Input Login*/
+input{
+    background-color: white;
+    border-style: solid;
+    border-color: #f5983b;
+    padding: 10px;
+    color: #f5983b;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+input, p, p{
+    color: black;
+    text-decoration: none;
+}
+
+
+input:hover{
+    border-color: #f5983b;
+}
+
+button{
+  background-color: #FF8000;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 11vh;
+  height: 5vh;
+
+}
+
+button:hover{
+	background-color: #f5983b;
+	cursor: pointer;
+    text-transform: uppercase;
+    
+}

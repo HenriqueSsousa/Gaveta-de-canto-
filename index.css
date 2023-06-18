@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+
+
+.topo{
+    background: #ff9900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+        
+}
+
+input[type=text] {
+    position: fixed;
+    border-radius: 5px;
+    text-align: center;
+    height: 41px;
+    top: 2%;
+    box-sizing: border-box;
+    right:31%;
+    width: 640px;
+    border: none;
+    outline: none;
+    color: black;
+        
+}
+
+.logo{
+	position: fixed;
+	top: -4px;
+	left: 300px;
+  cursor: pointer;
+}
+
+/*MENU*/
+.menu{
+    position: fixed;
+    text-align: center;
+    background-color:black;
+    width: 100%;       
+    top: 80px;
+    border-style: solid;
+    border-color: black;
+}
+
+li{
+    display: inline-block;
+    margin: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 5px;
+    font-weight: 900;
+    font-size: large;   
+}
+
+li a:hover{
+    text-shadow:  1px 1px 7px black   
+}
+
+
+#login{
+	position: fixed;
+	top: 11px;
+	left: 1300px;
+}
+#cadastro{
+	position: fixed;
+	top: 12px;
+	left: 1380px;
+}
+
+
+
+/* SLIDES */
+.slider-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 118px;
+  }
+  
+  .slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    height: 60%;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    text-shadow:8px 0px 8px black;
+  }
+  
+  .prev {
+    left: 30px;
+  }
+  
+  .next {
+    right: 40px;
+  }
+
+
+  /* Produtos*/
+
+div.lista{
+ 
+  display: flex;
+  width: 100%px; 
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 30px;
+  justify-content: center;
+  
+}
+
+div.item{
+  text-align: center;
+  padding: 50px;
+  width: 100%px;
+  height: auto;
+  margin: 12px;
+  box-shadow: -1px -1px 10px rgb(179, 178, 178);
+  border-radius: 5px;
+}
+
+
+
+div.item:hover{
+  background-color:white ;
+  cursor: pointer;
+  box-shadow: 1px 1px 15px #000000;
+  border-style: solid;
+  border-color: #0f0f0f;
+}
+
+.item{
+  width: 100%;
+  height: auto;
+
+}
+
+.item, p{
+ 
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.tarja{
+  color: rgb(26, 23, 23);
+} 
+
+.preco{
+  color: rgb(14, 11, 11);
+  border-radius: 5px;
+}
+
+
+
+  .preco, b{
+    font-size: 25px;
+  }
+
+.titulo{
+  text-align: center;
+  font-size: 250%;
+}
+
+
+fieldset{
+   height: auto;
+ background-color: #FF8000;
+ border: 1px solid #010505;
+   height: 100px;
+}
+
+/*estilização botão de compras*/
+.botao-comprar {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #ff9900;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.botao-comprar:hover {
+  background-color: #110f0f;
+  color: #ff9900;
+}
+
+/*footer*/
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  color: white ;
+  background-color: rgb(19, 16, 16);
+}
+
+.footer-link{
+  text-decoration: none;
+}
+
+#footer_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts{
+  margin-bottom: 0,75rem;
+}
+
+#footer_social_media{
+   display: flex;
+   gap: 2rem;
+   margin-top:1.5rem;
+}
+
+#footer_social_media .footer-link{
+ display: flex;
+align-items: center;
+justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color:white;
+  border-radius: 50%;
+}
+
+#footer_social_media .footer-link:hover{
+  opacity: 0.8;
+}
+
+#footer_social_media .footer-link i{
+  font-size: 1.25rem;
+}
+
+
+#istagram{
+   background:linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook{
+   background-color: #4267b3;
+}
+
+
+#whatsapp{
+  background-color: #25d366;
+}
+
+.footer-list{
+   display: flex;
+   flex-direction: column;
+   gap: 0.75rem;
+   list-style: none;  
+}
+
+.footer-list .footer-link{
+   color: rgb(45, 45, 139);
+}
+
+#footer_cad{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+#input_group{
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+#input_group input{
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
+background-color: white;
+color: black;
+}
+
+#input_group button{
+  background-color: rgb(99, 10, 99);
+  border: none;
+  padding: 0px 1.25rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius:0px 4px 4px 0px;
+  cursor: pointer;
+}
